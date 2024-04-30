@@ -1,3 +1,9 @@
+/**
+ * Takes a string and a shift factor and returns the string with each letter
+ * "shifted". Preserves case, punctuation and whitespace. More about how a
+ * Caesar cipher works can be found here:
+ * https://crypto.interactive-maths.com/caesar-shift-cipher.html
+ */
 const caesarCipher = (string, shiftFactor) => {
     let outputString = '';
     for (let i = 0; i < string.length; i++) {
