@@ -1,7 +1,7 @@
 /**
- * A calculator object contains functions for the basic operations of add,
- * subtract, divide and multiply. Each of these functions should take two
- * numbers and return the correct calculation.
+ * A calculator object contains functions for the basic operations of adding,
+ * subtracting, dividing and multiplying. Each of these functions takes two
+ * numbers and returns the correct calculation.
  */
 const createCalculator = () => {
     const add = (x, y) => x + y;
